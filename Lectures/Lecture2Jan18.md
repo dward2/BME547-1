@@ -162,6 +162,11 @@ Then install the virtual environment creation tool called `virtualenv`.
 ```
 pip install virtualenv
 ```
+or
+```
+sudo apt-get install python3-venv
+```
+
 
 To create a new virtualenv in a project you're working on, first change
 directory (`cd`) to your project directory and run:
@@ -171,6 +176,11 @@ source myProject/bin/activate  # activates your virtual environment
 ```
 This creates a virtual environemnt "sandbox" that will hold all the
 dependencies for your project at their specific versions.
+
+```
+python3 -m venv <VirtualEnvironmentName>
+```
+
 
 ***Run it again!***
 
